@@ -19,3 +19,54 @@
     position: initial;
     padding: 0.5em 0;
 }
+
+.card__descricao{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card__descricao__botoes{
+    display: flex;
+    justify-content: space-between;
+}
+
+.botao{
+    margin: 0 1em;
+}
+
+.card{
+    background-color: var(--branco);
+    margin: 1em;
+    border-radius: 1em;
+}
+
+.card__descricao{
+    padding: 1em;
+}
+
+.card__bloco__conteudo__titulo{
+    color: var(--laranja);
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.card__bloco__conteudo__subtitulo{
+    color: var(--azul);
+    font-size: 18px;
+    font-weight: bold;
+    margin: 1em 0;
+}
+
+.card__bloco__conteudo__paragrafo{
+    color: #000000;
+    font-size: 14px;
+}
+
+.saiba__mais{
+    background-color: var(--laranja);
+    color: var(--branco);
+    font-size: 16;
+    font-weight: bold;
+    padding: 1em 2em;
+    text-decoration: none;
+}
