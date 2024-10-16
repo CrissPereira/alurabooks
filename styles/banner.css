@@ -34,31 +34,3 @@
     background-position: 1em;
 }
 
-.banner__lista{
-    display: flex;
-    flex-direction: column;
-    gap: 50px;
-    margin-top: 2.5em;
-
-    
-}
-
-.banner__lista__itens{
-    display: flex;
-    gap: 10px;
-    justify-content: center;
-    
-}
-
-.banner__lista__itens>li>a{
-    background-color: var(--laranja);
-    text-decoration: none;
-    padding: 1em;
-    color: var(--branco);
-    font-size: 14px;
-    font-weight: bold;
-}
-
-.final{
-    font-weight: normal;
-}
